@@ -1,0 +1,38 @@
+install necessary stuffs like flask, matplot lib and stuff ,
+
+
+Step 1: Get OpenWeather API Key
+OpenWeather provides an API to fetch real-time emission and air pollution data.
+
+(1.1) Create an OpenWeather Account
+    Go to OpenWeather.
+    Sign up with your email and verify your account.
+(1.2) Get the API Key
+    Log in to your OpenWeather account.
+    Go to the API Keys section: https://home.openweathermap.org/api_keys.
+    Click on "Create Key", name it (e.g., "Emission Tracker"), and click Generate.
+    Copy your API key.
+
+
+     Step 2: Get Google Maps API Key
+Google Maps API is needed to display maps and location markers.
+
+2.1 Create a Google Cloud Account
+    Go to Google Cloud Console.
+    Sign in with your Google account.
+    Create a new project (e.g., "Emission Tracker Project").
+
+2.2 Enable Google Maps API
+    Click on the Navigation Menu (☰) → APIs & Services → Library.
+    Search for "Maps JavaScript API" and click Enable.
+    Also, enable "Geocoding API" (for latitude & longitude conversion).
+2.3 Generate the API Key
+    Click on APIs & Services → Credentials.
+    Click "Create Credentials" → API Key.
+    Copy the generated API key.
+
+
+To Run the app simply execute this --> python app.py
+
+
+**NOTE**  Dont Delete the comparison_graph when the application is running (it will simply break and stop executing , then u have to rerun the application ,nothing major will happen but still dont do it LOL..)
